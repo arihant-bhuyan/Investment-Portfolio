@@ -1,0 +1,10 @@
+AssetID,AssetType,TickerSymbol,AssetName,AssetCategory
+1,Stock,AAPL,"Apple Inc.",Equity
+2,Stock,TSLA,"Tesla Inc.",Equity
+3,Stock,MSFT,"Microsoft Corp.",Equity
+4,Stock,GOOGL,"Alphabet Inc.",Equity
+5,ETF,SPY,"SPDR S&P 500 ETF Trust",ETF
+6,ETF,QQQ,"Invesco QQQ Trust",ETF
+7,"Mutual Fund",VFINX,"Vanguard 500 Index Fund","Mutual Fund"
+8,"Bond ETF",AGG,"iShares Core US Aggregate Bond ETF",Bond
+9,ETF,GLD,"SPDR Gold Shares",Commodity
