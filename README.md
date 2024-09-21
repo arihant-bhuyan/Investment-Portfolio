@@ -1,6 +1,31 @@
 # Investment Portfolio - Python|SQL|Tableau
 ### Project by - Arihant Bhuyan
+
 ---
+
+## Table of Contents:
+1. [Python Data Extraction for Investment Portfolio](#python-data-extraction-for-investment-portfolio)
+2. [SQL Implementation for Investment Portfolio Project](#sql-implementation-for-investment-portfolio-project)
+3. [Database Structure](#database-structure)
+    1. [Assets Table](#1-assets-table)
+    2. [AssetPrices Table](#2-assetprices-table)
+    3. [Transactions Table](#3-transactions-table)
+    4. [Asset Allocation Table](#4-asset-allocation-table)
+    5. [MarketPrices Table](#5-marketprices-table)
+4. [Trade Simulation and Transactions](#trade-simulation-and-transactions)
+5. [Detailed Portfolio Analysis](#detailed-portfolio-analysis)
+    1. [Unrealized Gains/Losses](#1-unrealized-gainslosses)
+    2. [Realized Gains/Losses](#2-realized-gainslosses)
+    3. [Diversification Strategy](#diversification-strategy)
+6. [Portfolio Allocation by Asset Class](#portfolio-allocation-by-asset-class)
+7. [Risk and Return](#risk-and-return)
+8. [Portfolio Allocation by Asset Class with Asset-Level Performance Insights](#portfolio-allocation-by-asset-class-with-asset-level-performance-insights)
+9. [Portfolio Performance Over Time Analysis](#portfolio-performance-over-time-analysis)
+10. [Sharpe Ratio Analysis](#sharpe-ratio-analysis)
+11. [Tableau: Detailed Analysis of Charts and Dashboard](#tableau-detailed-analysis-of-charts-and-dashboard)
+
+---
+
 # Python Data Extraction for Investment Portfolio Project
 
 This script automates the extraction and preparation of historical stock data for key tickers, utilizing the `yfinance` library to fetch and clean data for various financial instruments.
