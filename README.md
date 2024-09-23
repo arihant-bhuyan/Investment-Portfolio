@@ -45,7 +45,10 @@ This script automates the extraction and preparation of historical stock data fo
 
 ### 4. Data Storage:
 - Cleaned data for each ticker is saved into CSV files, making it ready for further analysis.
-  
+
+Codes used are as below:
+![image](https://github.com/user-attachments/assets/9f6dd49c-a921-4932-a413-4cee771ba3d8)
+
 ---
 
 # SQL Implementation for Investment Portfolio Project
