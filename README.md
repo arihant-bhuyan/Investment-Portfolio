@@ -104,10 +104,8 @@ The project starts by creating a database, InvestmentPortfolio, which contains s
 - A stored procedure, `AddTransaction`, automates transaction recording by retrieving asset closing prices from the `AssetPrices` table and logging the transactions.
   
 #### Simulated Transactions:
-- Example trades:
-  - Buy 10 shares of AAPL on 2023-09-01.
-  - Sell 5 shares of TSLA on 2023-09-25.
-  
+![image](https://github.com/user-attachments/assets/b45fe607-1c03-421e-9b3a-c95252d543ca)
+
 This simulation helps model a year of portfolio activity, allowing for analysis of realized and unrealized gains/losses.
   
 ---
@@ -121,6 +119,9 @@ This simulation helps model a year of portfolio activity, allowing for analysis 
 - **SPY (S&P 500 ETF):** Steady gains with low volatility. SPY is a crucial defensive asset, reflecting overall market performance.
 - **AGG (iShares Core US Aggregate Bond ETF):** Stable unrealized gains, acting as a buffer to reduce portfolio volatility.
 
+![image](https://github.com/user-attachments/assets/a6193a4e-9834-41d3-abbd-a71ad39e553a)
+
+
 #### 2. Realized Gains/Losses
 Realized gains/losses were computed for assets that have been sold during the year. The timing of these trades plays a crucial role in the profitability of the portfolio.
 
@@ -129,6 +130,9 @@ Realized gains/losses were computed for assets that have been sold during the ye
 - **VFINX (Vanguard 500 Index Fund)**: Realized gains from VFINX were steady, reflecting its stable performance as an index fund. VFINX is ideal for long-term investors looking to capitalize on overall market growth with low risk.
 - **SPY & QQQ (Invesco QQQ Trust)**: Both ETFs showed decent performance, especially QQQ, which focuses on the tech-heavy Nasdaq. These trades helped enhance the overall portfolio return, with QQQ benefiting from its tech exposure.
 
+![image](https://github.com/user-attachments/assets/8163b93b-5d5d-4a35-bb7a-d747a2c38a86)
+
+
 #### Diversification Strategy
 The portfolio was designed with a diversified strategy in mind, balancing high-growth tech stocks with more stable assets such as bonds and index funds. This helps in managing risk, especially during volatile market periods. Here’s how different asset categories contributed to this strategy:
 
@@ -136,7 +140,7 @@ The portfolio was designed with a diversified strategy in mind, balancing high-g
 - **ETFs**: SPY and QQQ provided a balanced exposure to broader markets, reducing the risks associated with individual stock holdings. SPY, which mirrors the S&P 500, offered more stability, while QQQ capitalized on the technology sector’s performance.
 - **Bonds**: AGG acted as a safety net. Bonds usually move inversely to stocks, and AGG provided protection during market downturns, contributing to overall portfolio stability.
 - **Mutual Funds**: VFINX contributed steady returns, similar to SPY, and served as a low-risk component, ideal for long-term growth.
-  
+
 ---
 
 ### Portfolio Allocation by Asset Class
@@ -145,6 +149,8 @@ The portfolio was allocated across different asset classes, with each category p
 - **Stocks**: High allocation in stocks like AAPL, TSLA, MSFT, and GOOGL. This contributed significantly to both realized and unrealized gains but also added volatility.
 - **ETFs and Bonds**: These represented a more conservative allocation. While they didn’t yield high returns, they stabilized the portfolio, particularly during volatile periods.
 - **Commodities**: Gold (GLD) was included for hedging purposes, particularly against inflation and stock market downturns. It showed modest gains but played a crucial defensive role.
+
+![image](https://github.com/user-attachments/assets/76a657e1-ad64-4374-8025-9eb53d253282)
 
 #### Risk and Return
 - **Volatility**: Tesla (TSLA) and some tech stocks added a significant amount of volatility to the portfolio. However, this was balanced by the inclusion of bonds (AGG) and ETFs (SPY, QQQ).
@@ -211,6 +217,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Tesla Inc. is volatile with noticeable fluctuations, typical for tech stocks, offering potential high returns but carrying significant risk.
   - SPDR Gold Shares reflects strong upward trends during economic uncertainty, making it a safe haven during market downturns.
 - **Insight**: Analyzing assets like SPDR S&P 500 ETF and iShares Bond ETF can help in long-term stability, while Tesla’s performance requires active monitoring due to volatility. Gold provides safety against inflation.
+![image](https://github.com/user-attachments/assets/b213a529-26c9-4904-b7ac-dd65326c298f)
 
 ---
 
@@ -221,6 +228,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Equity and Mutual Funds make up significant parts of the allocation, indicating the desire to capture growth.
   - Bonds and Commodities (e.g., Gold) serve as hedges against market volatility.
 - **Insight**: The portfolio shows a balanced approach by holding high-growth assets (Equities) with safer assets like Bonds and Commodities, ensuring risk is managed while aiming for returns.
+![image](https://github.com/user-attachments/assets/13902285-7e01-4642-8a3e-7cc90af3edce)
 
 ---
 
@@ -232,6 +240,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Invesco QQQ Trust and Vanguard 500 Index Fund show healthy gains, showcasing their strength as part of long-term growth strategies.
   - Gold (SPDR Gold Shares), with significant realized gains, shows its role as a safety asset during downturns.
 - **Insight**: By analyzing realized vs. unrealized gains, investors can assess which assets have future potential (like ETFs) versus those that may need repositioning, like Tesla.
+![image](https://github.com/user-attachments/assets/c0c75309-b0cc-4b04-99bf-bf47e547216f)
 
 ---
 
@@ -242,6 +251,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Tesla is also a high-volatility asset, reflecting its frequent price swings, making it attractive to risk-tolerant investors.
   - Bonds (like iShares Core US Aggregate Bond ETF) exhibit low volatility, making them stable investments in a volatile market.
 - **Insight**: High-volatility assets like Tesla and SPDR S&P 500 ETF need constant attention for timing sell/buy decisions. Lower-volatility assets like Bonds are more stable, ideal for risk-averse investors.
+![image](https://github.com/user-attachments/assets/16eec246-879a-4e39-953d-dff3b3fd333c)
 
 ---
 
@@ -252,12 +262,14 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Tesla Inc. shows significant unrealized losses (-₹635.70), hinting at potential overvaluation or short-term market corrections.
   - Gold (SPDR Gold Shares), with ₹5,022.66 in unrealized gains, is serving its purpose as a hedge against market risk.
 - **Insight**: SPDR S&P 500 ETF and Gold are strong performers, while Tesla may require rebalancing to manage portfolio risk. Keeping track of these metrics helps make informed buy/sell decisions.
+![image](https://github.com/user-attachments/assets/f3b5b54a-4e4f-4533-8973-ec61389a4364)
 
 ---
 
 ## 6. Dashboard Overview: Interactivity and Filters
 - **Interactivity**: Filters allow users to select specific assets (like SPDR S&P 500 ETF, Tesla, iShares Bond ETF, etc.) and track their performance over time. The month/date filters provide detailed insights, helping to analyze short-term vs. long-term performance.
 - **Insight**: The interactivity allows users to focus on asset-specific trends, making the dashboard highly useful for personalized decision-making. Investors can use these insights to adjust their strategy in real-time, based on the latest data.
+![image](https://github.com/user-attachments/assets/4ce24fff-6ef0-4789-a3ea-e9c2075b9dd3)
 
 ---
 
