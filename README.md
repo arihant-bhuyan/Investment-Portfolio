@@ -150,7 +150,6 @@ The portfolio was allocated across different asset classes, with each category p
 - **ETFs and Bonds**: These represented a more conservative allocation. While they didn’t yield high returns, they stabilized the portfolio, particularly during volatile periods.
 - **Commodities**: Gold (GLD) was included for hedging purposes, particularly against inflation and stock market downturns. It showed modest gains but played a crucial defensive role.
 
-![image](https://github.com/user-attachments/assets/76a657e1-ad64-4374-8025-9eb53d253282)
 
 #### Risk and Return
 - **Volatility**: Tesla (TSLA) and some tech stocks added a significant amount of volatility to the portfolio. However, this was balanced by the inclusion of bonds (AGG) and ETFs (SPY, QQQ).
@@ -228,6 +227,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Equity and Mutual Funds make up significant parts of the allocation, indicating the desire to capture growth.
   - Bonds and Commodities (e.g., Gold) serve as hedges against market volatility.
 - **Insight**: The portfolio shows a balanced approach by holding high-growth assets (Equities) with safer assets like Bonds and Commodities, ensuring risk is managed while aiming for returns.
+
 ![image](https://github.com/user-attachments/assets/13902285-7e01-4642-8a3e-7cc90af3edce)
 
 ---
@@ -240,6 +240,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Invesco QQQ Trust and Vanguard 500 Index Fund show healthy gains, showcasing their strength as part of long-term growth strategies.
   - Gold (SPDR Gold Shares), with significant realized gains, shows its role as a safety asset during downturns.
 - **Insight**: By analyzing realized vs. unrealized gains, investors can assess which assets have future potential (like ETFs) versus those that may need repositioning, like Tesla.
+
 ![image](https://github.com/user-attachments/assets/c0c75309-b0cc-4b04-99bf-bf47e547216f)
 
 ---
@@ -251,6 +252,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
   - Tesla is also a high-volatility asset, reflecting its frequent price swings, making it attractive to risk-tolerant investors.
   - Bonds (like iShares Core US Aggregate Bond ETF) exhibit low volatility, making them stable investments in a volatile market.
 - **Insight**: High-volatility assets like Tesla and SPDR S&P 500 ETF need constant attention for timing sell/buy decisions. Lower-volatility assets like Bonds are more stable, ideal for risk-averse investors.
+
 ![image](https://github.com/user-attachments/assets/16eec246-879a-4e39-953d-dff3b3fd333c)
 
 ---
