@@ -116,7 +116,7 @@ This simulation helps model a year of portfolio activity, allowing for analysis 
 - **AAPL (Apple Inc.):** Low to Moderate unrealized gains due to stable growth.
 - **GOOGL (Alphabet Inc.):** Moderate gains from this strong tech performer. Less volatile than TSLA, providing portfolio stability.
 - **SPY (S&P 500 ETF):** highest unrealised gains with low volatility due to more quantity of asset in the portfolio. SPY is a crucial defensive asset, reflecting overall market performance.
-- **AGG (iShares Core US Aggregate Bond ETF):** Stable unrealized gains, acting as a buffer to reduce portfolio volatility.
+- **AGG (iShares Core US Aggregate Bond ETF):** low unrealized gains but acting as a buffer to reduce portfolio volatility.
 
 ![image](https://github.com/user-attachments/assets/a6193a4e-9834-41d3-abbd-a71ad39e553a)
 
@@ -125,15 +125,6 @@ This simulation helps model a year of portfolio activity, allowing for analysis 
 Realized gains/losses were computed for assets that have been sold during the year. The timing of these trades plays a crucial role in the profitability of the portfolio.
 
 ![image](https://github.com/user-attachments/assets/8163b93b-5d5d-4a35-bb7a-d747a2c38a86)
-
-
-#### Diversification Strategy
-The portfolio was designed to have a balanced growth strategy in mind, exploring high-growth tech stocks with more stable assets such as bonds and index funds. This helps in managing risk, especially during volatile market periods. Here’s how different asset categories contributed to this strategy:
-
-- **Equity (Tech Stocks)**: Stocks like AAPL, TSLA, GOOGL, and MSFT were tend to represent the growth-oriented part of the portfolio. While they introduced volatility, they also provided the highest potential for returns.
-- **ETFs**: SPY and QQQ provides a balanced exposure to broader markets, reducing the risks associated with individual stock holdings. SPY, which mirrors the S&P 500, offered more stability, while QQQ capitalized on the technology sector’s performance.
-- **Bonds**: AGG acted as a safety net. Bonds usually move inversely to stocks, and AGG provided protection during market downturns, contributing to overall portfolio stability.
-- **Mutual Funds**: VFINX contributed steady returns, similar to SPY, and served as a low-risk component, ideal for long-term growth.
 
 ---
 
@@ -144,51 +135,45 @@ The portfolio was allocated across different asset classes, with each category p
 - **ETFs and Bonds**: These represented a more conservative allocation. While they yielded high returns, they stabilized the portfolio, particularly during volatile periods.
 - **Commodities**: Gold (GLD) was included for hedging purposes, particularly against inflation and stock market downturns. It showed modest gains but played a crucial defensive role.
 
-#### Risk and Return
-- **Volatility**: Tesla (TSLA) and some tech stocks added a significant amount of volatility to the portfolio. However, this was balanced by the inclusion of bonds (AGG) and ETFs (SPY, QQQ).
-- **Risk Mitigation**: The inclusion of bonds and commodity ETFs (GLD) helped cushion against market downturns. While bonds tend to have lower returns, they reduce the portfolio’s overall risk.
-- **Return Maximization**: The high-growth tech stocks (AAPL, TSLA, GOOGL) were the primary drivers of the portfolio’s performance. Though they carried more risk, they offered the highest potential for gains.
+#### Diversification Strategy
+The portfolio was designed to have a balanced growth strategy in mind, exploring high-growth tech stocks with more stable assets such as bonds and index funds. This helps in managing risk, especially during volatile market periods. Here’s how different asset categories contributed to this strategy:
 
-#### Conclusion and Strategic Insights
-This portfolio showcases a balanced approach that mixes high-risk, high-reward stocks with stable, low-risk assets like bonds and index funds. The insights derived from realized and unrealized gains/losses emphasize the importance of timely trades and diversification to manage risk while maximizing returns.
+- **Equity (Tech Stocks)**: Stocks like AAPL, TSLA, GOOGL, and MSFT were tend to represent the growth-oriented part of the portfolio. While they introduced volatility, they also provided the highest potential for returns.
+- **ETFs**: SPY and QQQ provides a balanced exposure to broader markets, reducing the risks associated with individual stock holdings. SPY, which mirrors the S&P 500, offered more stability, while QQQ capitalized on the technology sector’s performance.
+- **Bonds**: AGG acted as a safety net. Bonds usually move inversely to stocks, and AGG provided protection during market downturns, contributing to overall portfolio stability.
+- **Mutual Funds**: VFINX contributed steady returns, similar to SPY, and served as a low-risk component, ideal for long-term growth.
+- **Commodities**: GLD contributed high returns (unrealised and realised gains),served as a low-risk component, ideal for long-term growth.
 
-#### Key Takeaways:
-- Diversification across sectors and asset types mitigates risks and smooths out returns during volatile periods.
-- Realized gains from trades like AAPL highlight the importance of timing in portfolio management.
-- Unrealized gains show potential for further profits, particularly from stable stocks like AAPL and GOOGL.
-  
----
+### Portfolio Allocation by Asset Class with Asset-Level Insights
 
-### Portfolio Allocation by Asset Class with Asset-Level Performance Insights
-
-The provided SQL script calculates asset allocation and performance by asset category. Each asset’s total value is calculated using the closing price and the quantity held. Here’s an asset-level breakdown of performance:
+The provided SQL script calculates asset allocation and performance by asset category. Each asset’s total value is calculated using the closing price and the quantity held. Below states the purpose of choosing the said asset.
 
 #### 1. Stocks:
 - **AAPL, TSLA, MSFT, GOOGL**: These are high-growth tech stocks with significant exposure in the portfolio.
-- **Performance**: Tech stocks like AAPL and MSFT have strong historical returns but show high volatility. TSLA's growth has been exponential but is more volatile. GOOGL also offers long-term growth prospects.
+- **Purpose**: Tech stocks like AAPL and MSFT have strong historical returns but show high volatility. TSLA's growth has been exponential but is more volatile. GOOGL also offers long-term growth prospects.
 
 #### 2. ETFs:
 - **SPY, QQQ**: These ETFs represent broader indices like the S&P 500 and Nasdaq 100, providing stable and diversified growth across sectors.
-- **Performance**: SPY offers exposure to large-cap U.S. companies with moderate risk. QQQ is tech-heavy and volatile but historically performs well.
+- **Purpose**: SPY offers exposure to large-cap U.S. companies with moderate risk. QQQ is tech-heavy and volatile but historically performs well.
 
 #### 3. Bonds:
 - **AGG**: A bond ETF providing exposure to U.S. Treasuries and investment-grade corporate bonds.
-- **Performance**: AGG serves as a lower-risk counterbalance to stocks, providing stable income and reducing portfolio volatility.
+- **Purpose**: AGG serves as a lower-risk counterbalance to stocks, providing stable income and reducing portfolio volatility.
 
 #### 4. Mutual Funds:
 - **VFINX**: Tracks the S&P 500 index and serves as a core diversified equity holding.
-- **Performance**: Historically offers consistent long-term growth aligned with the U.S. stock market.
+- **Purpose**: Historically offers consistent long-term growth aligned with the U.S. stock market.
 
 #### 5. Commodities:
 - **GLD**: A commodity ETF tracking gold.
-- **Performance**: Acts as a hedge against inflation and market downturns, offering protection during periods of economic uncertainty.
+- **Purpose**: Acts as a hedge against inflation and market downturns, offering protection during periods of economic uncertainty.
 
 ---
 
 ### Portfolio Performance Over Time Analysis:
-- **Portfolio Value Fluctuation**: The portfolio value is calculated daily using the sum of asset quantities and their respective closing prices. For instance, on August 30, 2024, the portfolio's total value reached $852,848.49. Analyzing this data over time shows periods of growth and contraction, indicating asset performance.
-- **Volatility (Risk)**: Individual asset volatility is calculated using the standard deviation of asset prices. For example, AssetID 6 (QQQ) exhibits a 42.64 volatility, one of the highest in the portfolio, indicating a riskier but potentially rewarding position. Conversely, AssetID 10 (VFINX) has a 33.54 volatility, providing a more stable but lower-risk option.
-- **Portfolio Volatility**: The weighted sum of each asset's volatility provides a portfolio volatility of 18.11. This moderate risk suggests a balanced portfolio, blending higher-risk assets like AAPL (AssetID 1) and lower-risk ones like GLD (AssetID 8).
+- **Portfolio Value Fluctuation**: The portfolio value is calculated daily using the sum of asset quantities and their respective closing prices. For instance, on August 30, 2024, the portfolio's total value reached $852,288.49. Analyzing this data over time shows periods of growth and contraction, indicating asset performance.
+- **Volatility (Risk)**: Individual asset volatility is calculated using the standard deviation of asset prices. For example, AssetID 5 (SPY) exhibits a 42.64 volatility, one of the highest in the portfolio, indicating a riskier but potentially rewarding position. Conversely, AssetID 8 (AGG) has a 2.007 volatility, providing a more stable but lower-risk option.
+- **Portfolio Volatility**: The weighted sum of each asset's volatility provides a portfolio volatility of 70.017. This suggests the portfolio is a high risk, high return portfolio risk.
 - **Daily Returns and Average Return**: The average return calculation is based on daily price movements. For example, from August 2023 to August 2024, the portfolio averaged a 7.65% return. This consistent growth, especially driven by the high returns from TSLA (AssetID 2) and SPY (AssetID 9), demonstrates solid portfolio performance.
 
 ---
