@@ -113,10 +113,9 @@ This simulation helps model a year of portfolio activity, allowing for analysis 
 ### Detailed Portfolio Analysis
 
 #### 1. Unrealized Gains/Losses
-- **AAPL (Apple Inc.):** Significant unrealized gains due to stable growth. AAPL forms a core portfolio asset.
-- **TSLA (Tesla Inc.):** Volatility results in moderate unrealized gains, but Tesla remains a high-risk, high-reward asset.
+- **AAPL (Apple Inc.):** Low to Moderate unrealized gains due to stable growth.
 - **GOOGL (Alphabet Inc.):** Moderate gains from this strong tech performer. Less volatile than TSLA, providing portfolio stability.
-- **SPY (S&P 500 ETF):** Steady gains with low volatility. SPY is a crucial defensive asset, reflecting overall market performance.
+- **SPY (S&P 500 ETF):** highest unrealised gains with low volatility due to more quantity of asset in the portfolio. SPY is a crucial defensive asset, reflecting overall market performance.
 - **AGG (iShares Core US Aggregate Bond ETF):** Stable unrealized gains, acting as a buffer to reduce portfolio volatility.
 
 ![image](https://github.com/user-attachments/assets/a6193a4e-9834-41d3-abbd-a71ad39e553a)
@@ -129,10 +128,10 @@ Realized gains/losses were computed for assets that have been sold during the ye
 
 
 #### Diversification Strategy
-The portfolio was designed with a diversified strategy in mind, balancing high-growth tech stocks with more stable assets such as bonds and index funds. This helps in managing risk, especially during volatile market periods. Here’s how different asset categories contributed to this strategy:
+The portfolio was designed to have a balanced growth strategy in mind, exploring high-growth tech stocks with more stable assets such as bonds and index funds. This helps in managing risk, especially during volatile market periods. Here’s how different asset categories contributed to this strategy:
 
-- **Equity (Tech Stocks)**: Stocks like AAPL, TSLA, GOOGL, and MSFT represented the growth-oriented part of the portfolio. While they introduced volatility, they also provided the highest potential for returns.
-- **ETFs**: SPY and QQQ provided a balanced exposure to broader markets, reducing the risks associated with individual stock holdings. SPY, which mirrors the S&P 500, offered more stability, while QQQ capitalized on the technology sector’s performance.
+- **Equity (Tech Stocks)**: Stocks like AAPL, TSLA, GOOGL, and MSFT were tend to represent the growth-oriented part of the portfolio. While they introduced volatility, they also provided the highest potential for returns.
+- **ETFs**: SPY and QQQ provides a balanced exposure to broader markets, reducing the risks associated with individual stock holdings. SPY, which mirrors the S&P 500, offered more stability, while QQQ capitalized on the technology sector’s performance.
 - **Bonds**: AGG acted as a safety net. Bonds usually move inversely to stocks, and AGG provided protection during market downturns, contributing to overall portfolio stability.
 - **Mutual Funds**: VFINX contributed steady returns, similar to SPY, and served as a low-risk component, ideal for long-term growth.
 
@@ -141,10 +140,9 @@ The portfolio was designed with a diversified strategy in mind, balancing high-g
 ### Portfolio Allocation by Asset Class
 The portfolio was allocated across different asset classes, with each category playing a specific role:
 
-- **Stocks**: High allocation in stocks like AAPL, TSLA, MSFT, and GOOGL. This contributed significantly to both realized and unrealized gains but also added volatility.
-- **ETFs and Bonds**: These represented a more conservative allocation. While they didn’t yield high returns, they stabilized the portfolio, particularly during volatile periods.
+- **Stocks**: High allocation in stocks like AAPL, TSLA, MSFT, and GOOGL. Keeping in mind thate they would perform well. They contributed significantly to both realized and unrealized gains but also contributed heavily to losses (TSLA).
+- **ETFs and Bonds**: These represented a more conservative allocation. While they yielded high returns, they stabilized the portfolio, particularly during volatile periods.
 - **Commodities**: Gold (GLD) was included for hedging purposes, particularly against inflation and stock market downturns. It showed modest gains but played a crucial defensive role.
-
 
 #### Risk and Return
 - **Volatility**: Tesla (TSLA) and some tech stocks added a significant amount of volatility to the portfolio. However, this was balanced by the inclusion of bonds (AGG) and ETFs (SPY, QQQ).
