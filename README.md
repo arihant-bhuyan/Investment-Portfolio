@@ -125,11 +125,6 @@ This simulation helps model a year of portfolio activity, allowing for analysis 
 #### 2. Realized Gains/Losses
 Realized gains/losses were computed for assets that have been sold during the year. The timing of these trades plays a crucial role in the profitability of the portfolio.
 
-- **AAPL**: The realized gains from selling AAPL reflect timely buy and sell decisions, leveraging the stock’s bullish trend. Selling AAPL after its consistent rise contributed significantly to portfolio profits.
-- **TSLA**: Tesla’s realized losses were due to its volatility. Although some trades were profitable, others resulted in small realized losses due to sales during price dips.
-- **VFINX (Vanguard 500 Index Fund)**: Realized gains from VFINX were steady, reflecting its stable performance as an index fund. VFINX is ideal for long-term investors looking to capitalize on overall market growth with low risk.
-- **SPY & QQQ (Invesco QQQ Trust)**: Both ETFs showed decent performance, especially QQQ, which focuses on the tech-heavy Nasdaq. These trades helped enhance the overall portfolio return, with QQQ benefiting from its tech exposure.
-
 ![image](https://github.com/user-attachments/assets/8163b93b-5d5d-4a35-bb7a-d747a2c38a86)
 
 
