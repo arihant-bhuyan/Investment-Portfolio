@@ -28,7 +28,7 @@
 
 # Python Data Extraction for Investment Portfolio Project
 
-This script automates the extraction and preparation of historical stock data for key tickers, utilizing the `yfinance` library to fetch and clean data for various financial instruments.
+This script is used to extract and prepare historical stock data for key tickers, utilizing the `yfinance` library to fetch and clean data for various financial instruments.
 
 ## Key Features:
 
@@ -114,8 +114,8 @@ This simulation helps model a year of portfolio activity, allowing for analysis 
 
 #### 1. Unrealized Gains/Losses
 - **AAPL (Apple Inc.):** Low to Moderate unrealized gains due to stable growth.
-- **GOOGL (Alphabet Inc.):** Moderate gains from this strong tech performer. Less volatile than TSLA, providing portfolio stability.
-- **SPY (S&P 500 ETF):** highest unrealised gains with low volatility due to more quantity of asset in the portfolio. SPY is a crucial defensive asset, reflecting overall market performance.
+- **GOOGL (Alphabet Inc.):** Moderate gains from this strong tech stock. Less volatile than TSLA, providing portfolio stability.
+- **SPY (S&P 500 ETF):** highest unrealised gains with low volatility due to more quantity of asset in the portfolio. SPY is a crucial asset, reflecting overall market performance.
 - **AGG (iShares Core US Aggregate Bond ETF):** low unrealized gains but acting as a buffer to reduce portfolio volatility.
 
 ![image](https://github.com/user-attachments/assets/a6193a4e-9834-41d3-abbd-a71ad39e553a)
@@ -133,13 +133,13 @@ The portfolio was allocated across different asset classes, with each category p
 
 - **Stocks**: High allocation in stocks like AAPL, TSLA, MSFT, and GOOGL. Keeping in mind thate they would perform well. They contributed significantly to both realized and unrealized gains but also contributed heavily to losses (TSLA).
 - **ETFs and Bonds**: These represented a more conservative allocation. While they yielded high returns, they stabilized the portfolio, particularly during volatile periods.
-- **Commodities**: Gold (GLD) was included for hedging purposes, particularly against inflation and stock market downturns. It showed modest gains but played a crucial defensive role.
+- **Commodities**: Gold (GLD) was included for hedging purposes, particularly against inflation and stock market downturns (COVID). It showed modest gains but played a crucial defensive role.
 
 #### Diversification Strategy
 The portfolio was designed to have a balanced growth strategy in mind, exploring high-growth tech stocks with more stable assets such as bonds and index funds. This helps in managing risk, especially during volatile market periods. Here’s how different asset categories contributed to this strategy:
 
 - **Equity (Tech Stocks)**: Stocks like AAPL, TSLA, GOOGL, and MSFT were tend to represent the growth-oriented part of the portfolio. While they introduced volatility, they also provided the highest potential for returns.
-- **ETFs**: SPY and QQQ provides a balanced exposure to broader markets, reducing the risks associated with individual stock holdings. SPY, which mirrors the S&P 500, offered more stability, while QQQ capitalized on the technology sector’s performance.
+- **ETFs**: SPY and QQQ provides a balanced exposure to broader markets, reducing the risks associated with individual stock holdings.
 - **Bonds**: AGG acted as a safety net. Bonds usually move inversely to stocks, and AGG provided protection during market downturns, contributing to overall portfolio stability.
 - **Mutual Funds**: VFINX contributed steady returns, similar to SPY, and served as a low-risk component, ideal for long-term growth.
 - **Commodities**: GLD contributed high returns (unrealised and realised gains),served as a low-risk component, ideal for long-term growth.
