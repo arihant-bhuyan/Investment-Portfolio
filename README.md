@@ -251,6 +251,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
 - **Insight**: The interactivity allows users to focus on asset-specific trends, making the dashboard highly useful for personalized decision-making. Investors can use these insights to adjust their strategy in real-time, based on the latest data.
 ![image](https://github.com/user-attachments/assets/4ce24fff-6ef0-4789-a3ea-e9c2075b9dd3)
 
+Please visit this URL for the interactive version of the dashboard: https://public.tableau.com/app/profile/arihant.bhuyan/viz/InvestmentPortfolio-Project-Visualisation/MainDashBoard
 ---
 
 ## Conclusion:
