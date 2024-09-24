@@ -180,7 +180,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
 
 ### Sharpe Ratio Analysis:
 - The Sharpe Ratio is a measure used to assess the performance of an investment portfolio by adjusting its returns for risk. It is calculated by subtracting the risk-free rate from the portfolio's return and dividing that by the portfolio's volatility.
-- **Sharpe Ratio Calculation**: With a portfolio volatility of 18.11 and an average portfolio return of 7.65%, using a 3% risk-free rate results in a Sharpe Ratio of 0.66.
+- **Sharpe Ratio Calculation**: With a portfolio volatility of 70.017 and an average portfolio return of 7.65%, using a 3% risk-free rate results in a Sharpe Ratio of 0.66.
 - This ratio suggests that for every unit of risk taken, the portfolio earns 0.66 units of excess return. A ratio above 1 is considered ideal, indicating the portfolio is producing efficient risk-adjusted returns. However, with 0.66, it implies moderate performance relative to the risk taken. This provides a good balance but also suggests there is room for improvement in optimizing the portfolio, especially by either reducing volatility or enhancing returns through better asset allocation strategies.
 - Further fine-tuning could involve reducing exposure to highly volatile assets like TSLA or QQQ and increasing allocation to lower-risk, consistent performers like VFINX or GLD.
 
@@ -188,7 +188,7 @@ The provided SQL script calculates asset allocation and performance by asset cat
 
 # Tableau: Detailed Analysis of Tableau Charts and Dashboard
 ## 1. Line Graph: Transaction History and Asset Price Over Time
-- **Assets Tracked (via Filters)**: Multiple assets are tracked, but the graph currently displays the iShares Core US Aggregate Bond ETF. However, it can be filtered for other assets like SPDR S&P 500 ETF, Tesla, etc.
+- **Assets Tracked (via Filters)**: Multiple assets are tracked on the line chart and could be displayed per asset since its dynamic in nature.
 - **Analysis for All Assets**:
   - SPDR S&P 500 ETF Trust shows consistent growth, with occasional dips, highlighting its position as a stable, long-term performer.
   - Tesla Inc. is volatile with noticeable fluctuations, typical for tech stocks, offering potential high returns but carrying significant risk.
